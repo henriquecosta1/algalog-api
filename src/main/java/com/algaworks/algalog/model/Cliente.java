@@ -17,8 +17,6 @@ import com.algaworks.algalog.ValidationGroups;
 @Entity
 public class Cliente {
 	
-
-	@NotNull(groups = ValidationGroups.ClienteId.class)
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
